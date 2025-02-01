@@ -1,0 +1,21 @@
+.du-post-list-item {
+    border: none;
+    width: 100%;
+    a {
+        margin: 0;
+        .inner-container-top {
+
+        }
+        .inner-container-bottom {
+            .post-title {}
+            .post-date {}
+            .post-description {}
+            .post-bottom-gradient {
+                background: linear-gradient(to bottom, transparent, white);
+            }
+            .post-button {
+
+            }
+        }
+    }
+}

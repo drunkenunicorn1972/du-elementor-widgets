@@ -1,0 +1,280 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RVR Elementor Widgets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-28 14:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.4.3\n"
+"X-Domain: du-elem"
+
+#: widgets/class-du-event.php:88
+msgid "19,99"
+msgstr ""
+
+#: widgets/class-du-newslist.php:59 widgets/class-du-newslist.php:60
+msgid "6"
+msgstr ""
+
+#: widgets/class-du-newslist.php:95
+msgid "Aktuelles"
+msgstr ""
+
+#: widgets/class-du-buttons.php:114
+msgid "Alignment"
+msgstr ""
+
+#: widgets/class-du-quote.php:76 widgets/class-du-quote.php:79
+msgid "Author"
+msgstr ""
+
+#: widgets/class-du-buttons.php:20 widgets/class-du-buttons.php:44
+msgid "Big Button"
+msgstr ""
+
+#: widgets/class-du-slider.php:98
+msgid "Button"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:67 widgets/class-du-buttons.php:86
+#: widgets/class-du-event.php:106 widgets/class-du-cta.php:100
+msgid "Button Link"
+msgstr ""
+
+#: widgets/class-du-buttons.php:100
+msgid "Button Style"
+msgstr ""
+
+#: widgets/class-du-slider.php:92 widgets/class-du-ctabtn.php:55
+#: widgets/class-du-ctabtn.php:58 widgets/class-du-buttons.php:64
+#: widgets/class-du-event.php:95 widgets/class-du-cta.php:88
+#: widgets/class-du-cta.php:91
+msgid "Button Text"
+msgstr ""
+
+#: widgets/class-du-buttons.php:53
+msgid "Button Title"
+msgstr ""
+
+#: widgets/class-du-cta.php:47
+msgid "Call to Action"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:21 widgets/class-du-ctabtn.php:47
+msgid "Call to Action Button"
+msgstr ""
+
+#: widgets/class-du-cta.php:21
+msgid "Call to Action Card"
+msgstr ""
+
+#: widgets/class-du-buttons.php:124
+msgid "Center"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:81 widgets/class-du-cta.php:114
+msgid "Choose Background Image"
+msgstr ""
+
+#: widgets/class-du-buttons.php:75 widgets/class-du-event.php:120
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:92 widgets/class-du-cta.php:125
+msgid "CTA Style"
+msgstr ""
+
+#: widgets/class-du-cta.php:58
+msgid "CTA Title"
+msgstr ""
+
+#. Description of the plugin
+msgid "Custom Elementor Widgets for the RV Rhede website."
+msgstr ""
+
+#: widgets/class-du-event.php:77
+msgid "Date or Text"
+msgstr ""
+
+#: widgets/class-du-quote.php:91
+msgid "Default"
+msgstr ""
+
+#: widgets/class-du-cta.php:77 widgets/class-du-cta.php:80
+msgid "Description"
+msgstr ""
+
+#: widgets/class-du-slider.php:62
+msgid "Desktop Image"
+msgstr ""
+
+#. Author of the plugin
+msgid "Drunken Unicorn"
+msgstr ""
+
+#: widgets/class-du-slider.php:115
+msgid "Enddate"
+msgstr ""
+
+#: widgets/class-du-event.php:21 widgets/class-du-event.php:46
+msgid "Event / Workshop"
+msgstr ""
+
+#: widgets/class-du-event.php:74
+msgid "Event date"
+msgstr ""
+
+#: widgets/class-du-event.php:65
+msgid "Event Description"
+msgstr ""
+
+#: widgets/class-du-event.php:85
+msgid "Event price"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.drunken-unicorn.eu"
+msgstr ""
+
+#: widgets/class-du-buttons.php:106
+msgid "Invert"
+msgstr ""
+
+#: widgets/class-du-buttons.php:68 widgets/class-du-event.php:99
+msgid "Learn More"
+msgstr ""
+
+#: widgets/class-du-buttons.php:119
+msgid "Left"
+msgstr ""
+
+#: widgets/class-du-slider.php:71
+msgid "Mobile Image"
+msgstr ""
+
+#: widgets/class-du-newslist.php:73
+msgid "Post slider will appear here"
+msgstr ""
+
+#: widgets/class-du-newslist.php:23 widgets/class-du-newslist.php:48
+msgid "Posts slider"
+msgstr ""
+
+#: widgets/class-du-buttons.php:104
+msgid "Primary"
+msgstr ""
+
+#: widgets/class-du-quote.php:21 widgets/class-du-quote.php:46
+msgid "Quote"
+msgstr ""
+
+#: widgets/class-du-quote.php:87
+msgid "Quote Style"
+msgstr ""
+
+#: widgets/class-du-quote.php:57
+msgid "Quote Title"
+msgstr ""
+
+#: widgets/class-du-slider.php:23 widgets/class-du-slider.php:48
+msgid "Responsive Slider"
+msgstr ""
+
+#: widgets/class-du-buttons.php:129
+msgid "Right"
+msgstr ""
+
+#: du-elementor-widgets.php:62
+msgid "RV Rhede Elements"
+msgstr ""
+
+#. Name of the plugin
+msgid "RVR Elementor Widgets"
+msgstr ""
+
+#: widgets/class-du-buttons.php:105
+msgid "Secondary"
+msgstr ""
+
+#: widgets/class-du-quote.php:93
+msgid "Shade behind text"
+msgstr ""
+
+#: widgets/class-du-newslist.php:56
+msgid "Show # items"
+msgstr ""
+
+#: widgets/class-du-slider.php:136
+msgid "Slider will appear here"
+msgstr ""
+
+#: widgets/class-du-slider.php:56
+msgid "Slides"
+msgstr ""
+
+#: widgets/class-du-slider.php:110
+msgid "Startdate"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:96 widgets/class-du-cta.php:129
+msgid "Style 01"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:97 widgets/class-du-cta.php:130
+msgid "Style 02"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:98 widgets/class-du-cta.php:131
+msgid "Style 03"
+msgstr ""
+
+#: widgets/class-du-cta.php:132
+msgid "Style 04"
+msgstr ""
+
+#: widgets/class-du-quote.php:65 widgets/class-du-cta.php:66
+msgid "Sub Title Text"
+msgstr ""
+
+#: widgets/class-du-ctabtn.php:59 widgets/class-du-cta.php:92
+msgid "Submit"
+msgstr ""
+
+#: widgets/class-du-slider.php:86 widgets/class-du-slider.php:88
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/class-du-quote.php:68 widgets/class-du-cta.php:69
+msgid "Subtitle goes here"
+msgstr ""
+
+#: widgets/class-du-slider.php:80 widgets/class-du-buttons.php:57
+#: widgets/class-du-event.php:57
+msgid "Title"
+msgstr ""
+
+#: widgets/class-du-quote.php:54 widgets/class-du-event.php:54
+#: widgets/class-du-cta.php:55
+msgid "Title Text"
+msgstr ""
+
+#: widgets/class-du-slider.php:82
+msgid "Title text"
+msgstr ""
+
+#: widgets/class-du-quote.php:92
+msgid "Transparent Background"
+msgstr ""
+
+#: widgets/class-du-buttons.php:66 widgets/class-du-event.php:97
+msgid "Type something special here, my friend!"
+msgstr ""
