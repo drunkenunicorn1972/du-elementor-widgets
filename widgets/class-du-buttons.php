@@ -32,7 +32,7 @@ class DU_Buttons_Widget extends \Elementor\Widget_Base
 
     public function get_categories()
     {
-        return ['DU_category'];
+        return ['du_category'];
     }
 
     protected function _register_controls()
@@ -154,7 +154,7 @@ class DU_Buttons_Widget extends \Elementor\Widget_Base
         $target = $settings['du_button_link']['is_external'] ? ' target="_blank"' : '';
         $nofollow = $settings['du_button_link']['nofollow'] ? ' rel="nofollow"' : '';
 
-        echo '<div class="pp-big-button ' . $settings["button_align"] . ' ' . $settings['du_button_style'] . '">';
+        echo '<div class="du-big-button ' . $settings["button_align"] . ' ' . $settings['du_button_style'] . '">';
         echo '<a href="' . $settings['du_button_link']['url'] . '" ' . $target . $nofollow . '">';
         echo '<div class="btn-image">';
         echo '<img src="' . $settings["du_button_image"]["url"] . '" alt="' . $settings["du_button_image"]["alt"] . '" class="btn-pictogram">';

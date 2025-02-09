@@ -28,7 +28,7 @@ define('DU_PLUGIN_DIR', plugin_dir_path(__FILE__));
  * @param \Elementor\Widgets_Manager $widgets_manager Elementor widgets manager.
  * @return void
  */
-function register_du_widgets( $widgets_manager ) {
+function register_du_widgets( $widgets_manager ): void {
 
     require_once( __DIR__ . '/widgets/class-du-cta.php' );
     require_once( __DIR__ . '/widgets/class-du-ctabtn.php' );
@@ -38,6 +38,7 @@ function register_du_widgets( $widgets_manager ) {
     require_once( __DIR__ . '/widgets/class-du-slider.php' );
     require_once( __DIR__ . '/widgets/class-du-newsslider.php' );
     require_once( __DIR__ . '/widgets/class-du-newslist.php' );
+    require_once( __DIR__ . '/widgets/class-du-teammember.php' );
 
     $widgets_manager->register( new \Du_Call_To_Action_Widget() );
     $widgets_manager->register( new \Du_CTA_Button_Widget() );
@@ -47,6 +48,7 @@ function register_du_widgets( $widgets_manager ) {
     $widgets_manager->register( new \Du_Slider_Widget() );
     $widgets_manager->register( new \Du_NewsSlider_Widget() );
     $widgets_manager->register( new \Du_Newslist_Widget() );
+    $widgets_manager->register( new \DU_Teammember_Widget() );
 
 }
 add_action( 'elementor/widgets/register', 'register_du_widgets' );
@@ -59,7 +61,7 @@ add_action( 'elementor/widgets/register', 'register_du_widgets' );
 function add_elementor_widget_categories( $elements_manager ) {
 
     $elements_manager->add_category(
-        'Du_category',
+        'du_category',
         [
             'title' => esc_html__( 'DU Extra Elements', 'du-elem' ),
             'icon' => 'fa fa-plug',
@@ -86,7 +88,7 @@ function du_frontend_stylesheets() {
     wp_enqueue_style( 'du-elm-splide-styles' );
 }
 
-add_action( 'elementor/frontend/before_enqueue_styles', 'du_frontend_stylesheets', 900 );
-add_action( 'elementor/frontend/before_register_scripts', 'du_frontend_scripts' );
+add_action( 'elementor/frontend/before_enqueue_styles', 'du_frontend_stylesheets', 800 );
+add_action( 'elementor/frontend/before_register_scripts', 'du_frontend_scripts', 800 );
 add_action( 'elementor/elements/categories_registered', 'add_elementor_widget_categories' );
 add_action( 'plugins_loaded', 'du_widgets_load_translations' );

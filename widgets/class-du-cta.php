@@ -158,20 +158,21 @@ class DU_Call_To_Action_Widget extends \Elementor\Widget_Base
             $classbgimage = 'no-bgimage';
         }
 
-        echo '<div class="du-section-call-to-action ' . $settings["du_cta_style"] . '">';
-        echo '<div class="left-container ' . $classbgimage . '" ' . $bgimage . '>';
-        echo '<div class="inner-color-container">';
+        echo '<div class="du-section-call-to-action ' . $settings["du_cta_style"] . '" ' . $bgimage . '>';
+        echo '<div class="inner-color-container ' . $classbgimage  . '">';
+        echo '<div class="left-container">';
         echo '<div class="cta-title">';
-        echo '<h2>' . $settings['du_cta_title'] . '</h2>';
+        echo '<div class="title"><h2>' . $settings['du_cta_title'] . '</h2></div>';
         if ($settings['du_cta_subtitle']) {
-            echo '<div class="sub-title">' . $settings['du_cta_subtitle'] . '</div>';
+            echo '<div class="title"><div class="sub-title">' . $settings['du_cta_subtitle'] . '</div></div>';
         }
         echo '</div>';
         echo '</div>';
-        echo '</div>';
+
         echo '<div class="right-container">';
         echo '<p class="cta-desc">' . $settings['du_cta_desc'] . '</p>';
         echo $cta_btn_link;
+        echo '</div>';
         echo '</div>';
         echo '</div>';
 

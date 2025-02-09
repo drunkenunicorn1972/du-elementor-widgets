@@ -33,7 +33,7 @@ class DU_Quote_Widget extends \Elementor\Widget_Base
 
     public function get_categories()
     {
-        return ['DU_category'];
+        return ['du_category'];
     }
 
 

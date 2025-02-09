@@ -35,7 +35,7 @@ class DU_NewsSlider_Widget extends \Elementor\Widget_Base
 
     public function get_categories()
     {
-        return ['DU_category'];
+        return ['du_category'];
     }
 
 
@@ -85,7 +85,6 @@ class DU_NewsSlider_Widget extends \Elementor\Widget_Base
 
             echo '<section class="du-splide-conveyor splide" id="splide-conveyor-' . $elem_id . '">';
             echo '<div class="du-splide__track splide__track du-section-newsslider">';
-//            echo '<h2>' . esc_html__('Aktuelles', 'du-elem') . '</h2>';
             echo '<ul class="splide__list">';
 
             while ($recent_posts->have_posts()) : $recent_posts->the_post();
