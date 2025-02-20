@@ -89,7 +89,6 @@ class DU_Newslist_Widget extends \Elementor\Widget_Base
         if ($recent_posts->have_posts()) :
 
             echo '<div class="du-news-list">';
-//            echo '<h2>' . esc_html__('Aktuelles', 'du-elem') . '</h2>';
             echo '<ul class="du-newslist">';
 
             while ($recent_posts->have_posts()) : $recent_posts->the_post();

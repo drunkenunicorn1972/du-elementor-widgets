@@ -7,18 +7,16 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 
-class DU_Call_To_Action_Widget extends \Elementor\Widget_Base
+class Du_Call_To_Action_Widget extends \Elementor\Widget_Base
 {
-
-
     public function get_name()
     {
-        return 'DU_cta';
+        return 'DU_CtaBox';
     }
 
     public function get_title()
     {
-        return __('Call to Action Card', 'du-elem');
+        return __('Call to Action Box', 'du-elem');
     }
 
     public function get_icon()
@@ -33,7 +31,7 @@ class DU_Call_To_Action_Widget extends \Elementor\Widget_Base
 
     public function get_categories()
     {
-        return ['DU_category'];
+        return ['du_category'];
     }
 
 
@@ -42,9 +40,9 @@ class DU_Call_To_Action_Widget extends \Elementor\Widget_Base
         global $plugin_images;
 
         $this->start_controls_section(
-            'DU_cta',
+            'DU_CtaBox',
             [
-                'label' => __('Call to Action', 'du-elem'),
+                'label' => __('Call to Action Card', 'du-elem'),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
             ]
         );

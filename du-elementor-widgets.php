@@ -30,8 +30,8 @@ define('DU_PLUGIN_DIR', plugin_dir_path(__FILE__));
  */
 function register_du_widgets( $widgets_manager ): void {
 
-    require_once( __DIR__ . '/widgets/class-du-cta.php' );
     require_once( __DIR__ . '/widgets/class-du-ctabtn.php' );
+    require_once( __DIR__ . '/widgets/class-du-cta.php' );
     require_once( __DIR__ . '/widgets/class-du-buttons.php' );
     require_once( __DIR__ . '/widgets/class-du-quote.php' );
     require_once( __DIR__ . '/widgets/class-du-event.php' );
@@ -40,8 +40,8 @@ function register_du_widgets( $widgets_manager ): void {
     require_once( __DIR__ . '/widgets/class-du-newslist.php' );
     require_once( __DIR__ . '/widgets/class-du-teammember.php' );
 
-    $widgets_manager->register( new \Du_Call_To_Action_Widget() );
     $widgets_manager->register( new \Du_CTA_Button_Widget() );
+    $widgets_manager->register( new \Du_Call_To_Action_Widget() );
     $widgets_manager->register( new \Du_Buttons_Widget() );
     $widgets_manager->register( new \Du_Quote_Widget() );
     $widgets_manager->register( new \Du_Event_Widget() );

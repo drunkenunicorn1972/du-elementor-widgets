@@ -11,38 +11,38 @@ class DU_CTA_Button_Widget extends \Elementor\Widget_Base
 {
 
 
-    public function get_name()
+    public function get_name(): string
     {
         return 'DU_ctabtn';
     }
 
-    public function get_title()
+    public function get_title(): string
     {
         return __('Call to Action Button', 'du-elem');
     }
 
-    public function get_icon()
+    public function get_icon(): string
     {
         return 'eicon-button';
     }
 
-    public function get_keywords()
+    public function get_keywords(): array
     {
         return ['Rvr', 'action', 'call to', 'happy', 'cta'];
     }
 
-    public function get_categories()
+    public function get_categories(): array
     {
         return ['du_category'];
     }
 
 
-    protected function _register_controls()
+    protected function _register_controls(): void
     {
         global $plugin_images;
 
         $this->start_controls_section(
-            'DU_cta',
+            'DU_ctabtn',
             [
                 'label' => __('Call to Action Button', 'du-elem'),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
@@ -76,7 +76,7 @@ class DU_CTA_Button_Widget extends \Elementor\Widget_Base
         );
 
         $this->add_control(
-            'du_cta_bgimage',
+            'du_cta_button_bgimage',
             [
                 'label' => esc_html__( 'Choose Background Image', 'du-elem' ),
                 'type' => \Elementor\Controls_Manager::MEDIA,
@@ -87,9 +87,9 @@ class DU_CTA_Button_Widget extends \Elementor\Widget_Base
         );
 
         $this->add_control(
-            'du_cta_style',
+            'du_cta_button_style',
             [
-                'label' => __('CTA Style', 'du-elem'),
+                'label' => __('CTA Button Style', 'du-elem'),
                 'type' => \Elementor\Controls_Manager::SELECT,
                 'default' => 'ctabtn--01',
                 'options' => [
@@ -104,7 +104,7 @@ class DU_CTA_Button_Widget extends \Elementor\Widget_Base
 
     }
 
-    protected function render()
+    protected function render(): void
     {
         global $plugin_images;
 
@@ -114,15 +114,15 @@ class DU_CTA_Button_Widget extends \Elementor\Widget_Base
             $nofollow = $settings['du_cta_button_link']['nofollow'] ? ' rel="nofollow"' : '';
         }
 
-        if (isset($settings['du_cta_bgimage']['url']) && !empty($settings['du_cta_bgimage']['url']) && strpos($settings['du_cta_bgimage']['url'], 'placeholder') === false) {
-            $bgimage = 'style="background-image: url(' . esc_url( $settings['du_cta_bgimage']['url'] ) . ');"';
+        if (isset($settings['du_cta_button_bgimage']['url']) && !empty($settings['du_cta_button_bgimage']['url']) && strpos($settings['du_cta_button_bgimage']['url'], 'placeholder') === false) {
+            $bgimage = 'style="background-image: url(' . esc_url( $settings['du_cta_button_bgimage']['url'] ) . ');"';
             $classbgimage = 'bgimage';
         } else {
             $bgimage = '';
             $classbgimage = 'no-bgimage';
         }
 
-        echo '<div class="du-section-ctabtn ' . $settings["du_cta_style"] . ' ' . $classbgimage . '" ' . $bgimage . '>';
+        echo '<div class="du-section-ctabtn ' . $settings["du_cta_button_style"] . ' ' . $classbgimage . '" ' . $bgimage . '>';
         if (isset($settings['du_cta_button_link']['url'])) {
             echo '<a href="' . $settings['du_cta_button_link']['url'] . '" ' . $target . $nofollow . ' class="btn">';
         }

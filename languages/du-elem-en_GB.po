@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: RVR Elementor Widgets\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:28+0000\n"
-"PO-Revision-Date: 2025-02-20 15:32+0000\n"
+"PO-Revision-Date: 2025-02-20 15:29+0000\n"
 "Last-Translator: \n"
-"Language-Team: German\n"
-"Language: de_DE\n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,19 +29,19 @@ msgstr "6"
 
 #: widgets/class-du-buttons.php:114
 msgid "Alignment"
-msgstr "Ausrichtung"
+msgstr "Alignment"
 
 #: widgets/class-du-quote.php:76 widgets/class-du-quote.php:79
 msgid "Author"
-msgstr "Autor"
+msgstr "Author"
 
 #: widgets/class-du-buttons.php:20 widgets/class-du-buttons.php:44
 msgid "Big Button"
-msgstr "Großer Button"
+msgstr "Big Button"
 
 #: widgets/class-du-slider.php:98
 msgid "Button"
-msgstr "Taste"
+msgstr "Button"
 
 #: widgets/class-du-cta.php:98 widgets/class-du-ctabtn.php:67
 #: widgets/class-du-event.php:106 widgets/class-du-buttons.php:86
@@ -73,11 +73,11 @@ msgstr "Call to Action Button"
 
 #: widgets/class-du-cta.php:45
 msgid "Call to Action Card"
-msgstr "Call to Action Box"
+msgstr "Call to Action Card"
 
 #: widgets/class-du-buttons.php:124
 msgid "Center"
-msgstr "Zentrum"
+msgstr "Center"
 
 #: widgets/class-du-teammember.php:79
 msgid "CEO"
@@ -85,40 +85,40 @@ msgstr "CEO"
 
 #: widgets/class-du-cta.php:112 widgets/class-du-ctabtn.php:81
 msgid "Choose Background Image"
-msgstr "Hintergrundbild auswählen"
+msgstr "Choose Background Image"
 
 #: widgets/class-du-teammember.php:54 widgets/class-du-event.php:120
 #: widgets/class-du-buttons.php:75
 msgid "Choose Image"
-msgstr "Bild wählen"
+msgstr "Choose Image"
 
 #: widgets/class-du-ctabtn.php:92
 msgid "CTA Button Style"
-msgstr "CTA Button Stil"
+msgstr "CTA Button Style"
 
 #: widgets/class-du-cta.php:123
 msgid "CTA Style"
-msgstr "CTA-Stil"
+msgstr "CTA Style"
 
 #: widgets/class-du-cta.php:56
 msgid "CTA Title"
-msgstr "CTA Titel"
+msgstr "CTA Title"
 
 #: widgets/class-du-event.php:77
 msgid "Date or Text"
-msgstr "Datum oder Text"
+msgstr "Date or Text"
 
 #: widgets/class-du-quote.php:91
 msgid "Default"
-msgstr "Standard"
+msgstr "Default"
 
 #: widgets/class-du-cta.php:75 widgets/class-du-cta.php:78
 msgid "Description"
-msgstr "Beschreibung"
+msgstr "Description"
 
 #: widgets/class-du-slider.php:62
 msgid "Desktop Image"
-msgstr "Desktop Bild"
+msgstr "Desktop Image"
 
 #. Author of the plugin
 msgid "Drunken Unicorn"
@@ -126,39 +126,39 @@ msgstr "Drunken Unicorn"
 
 #: du-elementor-widgets.php:66
 msgid "DU Extra Elements"
-msgstr "DU Extra Widgets"
+msgstr "DU Extra Elements"
 
 #: widgets/class-du-slider.php:115
 msgid "Enddate"
-msgstr "Enddatum"
+msgstr "Enddate"
 
 #: widgets/class-du-event.php:21 widgets/class-du-event.php:46
 msgid "Event / Workshop"
-msgstr "Veranstaltung / Workshop"
+msgstr "Event / Workshop"
 
 #: widgets/class-du-event.php:74
 msgid "Event date"
-msgstr "Datum der Veranstaltung"
+msgstr "Event date"
 
 #: widgets/class-du-event.php:65
 msgid "Event Description"
-msgstr "Event Beschreibung"
+msgstr "Event Description"
 
 #: widgets/class-du-event.php:85
 msgid "Event price"
-msgstr "Preis der Veranstaltung"
+msgstr "Event price"
 
 #. Name of the plugin
 msgid "Extra Elementor Widgets"
-msgstr "Zusätzliche Elementor Widgets"
+msgstr "Extra Elementor Widgets"
 
 #. Description of the plugin
 msgid "Extra Elementor Widgets for your website."
-msgstr "Zusätzliche Elementor Widgets für deine Website."
+msgstr "Extra Elementor Widgets for your website."
 
 #: widgets/class-du-teammember.php:76
 msgid "Function"
-msgstr "Funktion"
+msgstr "Function"
 
 #. URI of the plugin
 #. Author URI of the plugin
@@ -167,23 +167,23 @@ msgstr "https://www.drunken-unicorn.eu"
 
 #: widgets/class-du-buttons.php:106
 msgid "Invert"
-msgstr "Invertiere"
+msgstr "Invert"
 
 #: widgets/class-du-teammember.php:68
 msgid "John Doe"
-msgstr "Max Mustermann"
+msgstr "John Doe"
 
 #: widgets/class-du-event.php:99 widgets/class-du-buttons.php:68
 msgid "Learn More"
-msgstr "Mehr erfahren"
+msgstr "Learn More"
 
 #: widgets/class-du-buttons.php:119
 msgid "Left"
-msgstr "Links"
+msgstr "Left"
 
 #: widgets/class-du-slider.php:71
 msgid "Mobile Image"
-msgstr "Mobiles Bild"
+msgstr "Mobile Image"
 
 #: widgets/class-du-teammember.php:65
 msgid "Name"
@@ -191,36 +191,36 @@ msgstr "Name"
 
 #: widgets/class-du-newslist.php:22
 msgid "News list"
-msgstr "Nachrichten Liste"
+msgstr "News list"
 
 #: widgets/class-du-newslist.php:123
 msgid "No posts found"
-msgstr "Keine Beiträge gefunden"
+msgstr "No posts found"
 
 #: widgets/class-du-newsslider.php:147
 msgid "No recent posts found"
-msgstr "Keine neuen Beiträge gefunden"
+msgstr "No recent posts found"
 
 #: widgets/class-du-newslist.php:46 widgets/class-du-newsslider.php:23
 #: widgets/class-du-newsslider.php:48
 msgid "Posts slider"
-msgstr "Beiträge Slider"
+msgstr "Posts slider"
 
 #: widgets/class-du-buttons.php:104
 msgid "Primary"
-msgstr "Primäre"
+msgstr "Primary"
 
 #: widgets/class-du-quote.php:21 widgets/class-du-quote.php:46
 msgid "Quote"
-msgstr "Zitat"
+msgstr "Quote"
 
 #: widgets/class-du-quote.php:87
 msgid "Quote Style"
-msgstr "Zitat Stil"
+msgstr "Quote Style"
 
 #: widgets/class-du-quote.php:57
 msgid "Quote Title"
-msgstr "Zitat Titel"
+msgstr "Quote Title"
 
 #: widgets/class-du-slider.php:23 widgets/class-du-slider.php:48
 msgid "Responsive Slider"
@@ -228,86 +228,86 @@ msgstr "Responsive Slider"
 
 #: widgets/class-du-buttons.php:129
 msgid "Right"
-msgstr "Rechts"
+msgstr "Right"
 
 #: widgets/class-du-buttons.php:105
 msgid "Secondary"
-msgstr "Sekundäres"
+msgstr "Secondary"
 
 #: widgets/class-du-quote.php:93
 msgid "Shade behind text"
-msgstr "Schatten hinter dem Text"
+msgstr "Shade behind text"
 
 #: widgets/class-du-newslist.php:54 widgets/class-du-newsslider.php:56
 msgid "Show # items"
-msgstr "# Artikel anzeigen"
+msgstr "Show # items"
 
 #: widgets/class-du-slider.php:56
 msgid "Slides"
-msgstr "Folien"
+msgstr "Slides"
 
 #: widgets/class-du-slider.php:110
 msgid "Startdate"
-msgstr "Startdatum"
+msgstr "Startdate"
 
 #: widgets/class-du-cta.php:127 widgets/class-du-ctabtn.php:96
 msgid "Style 01"
-msgstr "Stil 01"
+msgstr "Style 01"
 
 #: widgets/class-du-cta.php:128 widgets/class-du-ctabtn.php:97
 msgid "Style 02"
-msgstr "Stil 02"
+msgstr "Style 02"
 
 #: widgets/class-du-cta.php:129 widgets/class-du-ctabtn.php:98
 msgid "Style 03"
-msgstr "Stil 03"
+msgstr "Style 03"
 
 #: widgets/class-du-cta.php:130
 msgid "Style 04"
-msgstr "Stil 04"
+msgstr "Style 04"
 
 #: widgets/class-du-cta.php:64 widgets/class-du-quote.php:65
 msgid "Sub Title Text"
-msgstr "Untertitel Text"
+msgstr "Sub Title Text"
 
 #: widgets/class-du-cta.php:90 widgets/class-du-ctabtn.php:59
 msgid "Submit"
-msgstr "Speichern"
+msgstr "Submit"
 
 #: widgets/class-du-slider.php:86 widgets/class-du-slider.php:88
 msgid "Subtitle"
-msgstr "Untertitel"
+msgstr "Subtitle"
 
 #: widgets/class-du-cta.php:67 widgets/class-du-quote.php:68
 msgid "Subtitle goes here"
-msgstr "Der Untertitel steht hier"
+msgstr "Subtitle goes here"
 
 #: widgets/class-du-teammember.php:21 widgets/class-du-teammember.php:46
 msgid "Teammember"
-msgstr "Teammitglied"
+msgstr "Teammember"
 
 #: widgets/class-du-teammember.php:87
 msgid "Teammember Description"
-msgstr "Teammitglied Beschreibung"
+msgstr "Teammember Description"
 
 #: widgets/class-du-slider.php:80 widgets/class-du-event.php:57
 #: widgets/class-du-buttons.php:57
 msgid "Title"
-msgstr "Titel"
+msgstr "Title"
 
 #: widgets/class-du-cta.php:53 widgets/class-du-quote.php:54
 #: widgets/class-du-event.php:54
 msgid "Title Text"
-msgstr "Titel Text"
+msgstr "Title Text"
 
 #: widgets/class-du-slider.php:82
 msgid "Title text"
-msgstr "Titeltext"
+msgstr "Title text"
 
 #: widgets/class-du-quote.php:92
 msgid "Transparent Background"
-msgstr "Transparenter Hintergrund"
+msgstr "Transparent Background"
 
 #: widgets/class-du-event.php:97 widgets/class-du-buttons.php:66
 msgid "Type something special here, my friend!"
-msgstr "Tippe hier etwas Besonderes, mein Freund!"
+msgstr "Type something special here, my friend!"

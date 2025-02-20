@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RVR Elementor Widgets\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-28 14:56+0000\n"
+"POT-Creation-Date: 2025-02-20 15:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,16 +16,16 @@ msgstr ""
 "X-Loco-Version: 2.6.7; wp-6.4.3\n"
 "X-Domain: du-elem"
 
+#: widgets/class-du-newslist.php:57 widgets/class-du-newslist.php:58
+msgid "12"
+msgstr ""
+
 #: widgets/class-du-event.php:88
 msgid "19,99"
 msgstr ""
 
-#: widgets/class-du-newslist.php:59 widgets/class-du-newslist.php:60
+#: widgets/class-du-newsslider.php:59 widgets/class-du-newsslider.php:60
 msgid "6"
-msgstr ""
-
-#: widgets/class-du-newslist.php:95
-msgid "Aktuelles"
 msgstr ""
 
 #: widgets/class-du-buttons.php:114
@@ -44,8 +44,8 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:67 widgets/class-du-buttons.php:86
-#: widgets/class-du-event.php:106 widgets/class-du-cta.php:100
+#: widgets/class-du-cta.php:98 widgets/class-du-ctabtn.php:67
+#: widgets/class-du-event.php:106 widgets/class-du-buttons.php:86
 msgid "Button Link"
 msgstr ""
 
@@ -53,10 +53,10 @@ msgstr ""
 msgid "Button Style"
 msgstr ""
 
-#: widgets/class-du-slider.php:92 widgets/class-du-ctabtn.php:55
-#: widgets/class-du-ctabtn.php:58 widgets/class-du-buttons.php:64
-#: widgets/class-du-event.php:95 widgets/class-du-cta.php:88
-#: widgets/class-du-cta.php:91
+#: widgets/class-du-cta.php:86 widgets/class-du-cta.php:89
+#: widgets/class-du-ctabtn.php:55 widgets/class-du-ctabtn.php:58
+#: widgets/class-du-slider.php:92 widgets/class-du-event.php:95
+#: widgets/class-du-buttons.php:64
 msgid "Button Text"
 msgstr ""
 
@@ -64,15 +64,15 @@ msgstr ""
 msgid "Button Title"
 msgstr ""
 
-#: widgets/class-du-cta.php:47
-msgid "Call to Action"
+#: widgets/class-du-cta.php:19
+msgid "Call to Action Box"
 msgstr ""
 
 #: widgets/class-du-ctabtn.php:21 widgets/class-du-ctabtn.php:47
 msgid "Call to Action Button"
 msgstr ""
 
-#: widgets/class-du-cta.php:21
+#: widgets/class-du-cta.php:45
 msgid "Call to Action Card"
 msgstr ""
 
@@ -80,24 +80,29 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:81 widgets/class-du-cta.php:114
+#: widgets/class-du-teammember.php:79
+msgid "CEO"
+msgstr ""
+
+#: widgets/class-du-cta.php:112 widgets/class-du-ctabtn.php:81
 msgid "Choose Background Image"
 msgstr ""
 
-#: widgets/class-du-buttons.php:75 widgets/class-du-event.php:120
+#: widgets/class-du-teammember.php:54 widgets/class-du-event.php:120
+#: widgets/class-du-buttons.php:75
 msgid "Choose Image"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:92 widgets/class-du-cta.php:125
+#: widgets/class-du-ctabtn.php:92
+msgid "CTA Button Style"
+msgstr ""
+
+#: widgets/class-du-cta.php:123
 msgid "CTA Style"
 msgstr ""
 
-#: widgets/class-du-cta.php:58
+#: widgets/class-du-cta.php:56
 msgid "CTA Title"
-msgstr ""
-
-#. Description of the plugin
-msgid "Custom Elementor Widgets for the RV Rhede website."
 msgstr ""
 
 #: widgets/class-du-event.php:77
@@ -108,7 +113,7 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: widgets/class-du-cta.php:77 widgets/class-du-cta.php:80
+#: widgets/class-du-cta.php:75 widgets/class-du-cta.php:78
 msgid "Description"
 msgstr ""
 
@@ -118,6 +123,10 @@ msgstr ""
 
 #. Author of the plugin
 msgid "Drunken Unicorn"
+msgstr ""
+
+#: du-elementor-widgets.php:66
+msgid "DU Extra Elements"
 msgstr ""
 
 #: widgets/class-du-slider.php:115
@@ -140,6 +149,18 @@ msgstr ""
 msgid "Event price"
 msgstr ""
 
+#. Name of the plugin
+msgid "Extra Elementor Widgets"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extra Elementor Widgets for your website."
+msgstr ""
+
+#: widgets/class-du-teammember.php:76
+msgid "Function"
+msgstr ""
+
 #. URI of the plugin
 #. Author URI of the plugin
 msgid "https://www.drunken-unicorn.eu"
@@ -149,7 +170,11 @@ msgstr ""
 msgid "Invert"
 msgstr ""
 
-#: widgets/class-du-buttons.php:68 widgets/class-du-event.php:99
+#: widgets/class-du-teammember.php:68
+msgid "John Doe"
+msgstr ""
+
+#: widgets/class-du-event.php:99 widgets/class-du-buttons.php:68
 msgid "Learn More"
 msgstr ""
 
@@ -161,11 +186,24 @@ msgstr ""
 msgid "Mobile Image"
 msgstr ""
 
-#: widgets/class-du-newslist.php:73
-msgid "Post slider will appear here"
+#: widgets/class-du-teammember.php:65
+msgid "Name"
 msgstr ""
 
-#: widgets/class-du-newslist.php:23 widgets/class-du-newslist.php:48
+#: widgets/class-du-newslist.php:22
+msgid "News list"
+msgstr ""
+
+#: widgets/class-du-newslist.php:123
+msgid "No posts found"
+msgstr ""
+
+#: widgets/class-du-newsslider.php:147
+msgid "No recent posts found"
+msgstr ""
+
+#: widgets/class-du-newslist.php:46 widgets/class-du-newsslider.php:23
+#: widgets/class-du-newsslider.php:48
 msgid "Posts slider"
 msgstr ""
 
@@ -193,14 +231,6 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
-#: du-elementor-widgets.php:62
-msgid "RV Rhede Elements"
-msgstr ""
-
-#. Name of the plugin
-msgid "RVR Elementor Widgets"
-msgstr ""
-
 #: widgets/class-du-buttons.php:105
 msgid "Secondary"
 msgstr ""
@@ -209,12 +239,8 @@ msgstr ""
 msgid "Shade behind text"
 msgstr ""
 
-#: widgets/class-du-newslist.php:56
+#: widgets/class-du-newslist.php:54 widgets/class-du-newsslider.php:56
 msgid "Show # items"
-msgstr ""
-
-#: widgets/class-du-slider.php:136
-msgid "Slider will appear here"
 msgstr ""
 
 #: widgets/class-du-slider.php:56
@@ -225,27 +251,27 @@ msgstr ""
 msgid "Startdate"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:96 widgets/class-du-cta.php:129
+#: widgets/class-du-cta.php:127 widgets/class-du-ctabtn.php:96
 msgid "Style 01"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:97 widgets/class-du-cta.php:130
+#: widgets/class-du-cta.php:128 widgets/class-du-ctabtn.php:97
 msgid "Style 02"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:98 widgets/class-du-cta.php:131
+#: widgets/class-du-cta.php:129 widgets/class-du-ctabtn.php:98
 msgid "Style 03"
 msgstr ""
 
-#: widgets/class-du-cta.php:132
+#: widgets/class-du-cta.php:130
 msgid "Style 04"
 msgstr ""
 
-#: widgets/class-du-quote.php:65 widgets/class-du-cta.php:66
+#: widgets/class-du-cta.php:64 widgets/class-du-quote.php:65
 msgid "Sub Title Text"
 msgstr ""
 
-#: widgets/class-du-ctabtn.php:59 widgets/class-du-cta.php:92
+#: widgets/class-du-cta.php:90 widgets/class-du-ctabtn.php:59
 msgid "Submit"
 msgstr ""
 
@@ -253,17 +279,25 @@ msgstr ""
 msgid "Subtitle"
 msgstr ""
 
-#: widgets/class-du-quote.php:68 widgets/class-du-cta.php:69
+#: widgets/class-du-cta.php:67 widgets/class-du-quote.php:68
 msgid "Subtitle goes here"
 msgstr ""
 
-#: widgets/class-du-slider.php:80 widgets/class-du-buttons.php:57
-#: widgets/class-du-event.php:57
+#: widgets/class-du-teammember.php:21 widgets/class-du-teammember.php:46
+msgid "Teammember"
+msgstr ""
+
+#: widgets/class-du-teammember.php:87
+msgid "Teammember Description"
+msgstr ""
+
+#: widgets/class-du-slider.php:80 widgets/class-du-event.php:57
+#: widgets/class-du-buttons.php:57
 msgid "Title"
 msgstr ""
 
-#: widgets/class-du-quote.php:54 widgets/class-du-event.php:54
-#: widgets/class-du-cta.php:55
+#: widgets/class-du-cta.php:53 widgets/class-du-quote.php:54
+#: widgets/class-du-event.php:54
 msgid "Title Text"
 msgstr ""
 
@@ -275,6 +309,6 @@ msgstr ""
 msgid "Transparent Background"
 msgstr ""
 
-#: widgets/class-du-buttons.php:66 widgets/class-du-event.php:97
+#: widgets/class-du-event.php:97 widgets/class-du-buttons.php:66
 msgid "Type something special here, my friend!"
 msgstr ""

@@ -2,191 +2,312 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RVR Elementor Widgets\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-29 15:57+0000\n"
-"PO-Revision-Date: 2024-03-29 15:58+0000\n"
-"Last-Translator: admin\n"
-"Language-Team: Dutch\n"
+"POT-Creation-Date: 2025-02-20 15:28+0000\n"
+"PO-Revision-Date: 2025-02-20 15:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
 "Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.7; wp-6.4.3\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
 "X-Domain: du-elem"
+
+#: widgets/class-du-newslist.php:57 widgets/class-du-newslist.php:58
+msgid "12"
+msgstr "12"
 
 #: widgets/class-du-event.php:88
 msgid "19,99"
-msgstr ""
+msgstr "19,99"
+
+#: widgets/class-du-newsslider.php:59 widgets/class-du-newsslider.php:60
+msgid "6"
+msgstr "6"
 
 #: widgets/class-du-buttons.php:114
 msgid "Alignment"
-msgstr ""
+msgstr "Uitlijning"
 
 #: widgets/class-du-quote.php:76 widgets/class-du-quote.php:79
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: widgets/class-du-buttons.php:20 widgets/class-du-buttons.php:44
 msgid "Big Button"
-msgstr ""
+msgstr "Grote Knop"
 
-#: widgets/class-du-buttons.php:86 widgets/class-du-event.php:106
-#: widgets/class-du-cta.php:100
+#: widgets/class-du-slider.php:98
+msgid "Button"
+msgstr "Knop"
+
+#: widgets/class-du-cta.php:98 widgets/class-du-ctabtn.php:67
+#: widgets/class-du-event.php:106 widgets/class-du-buttons.php:86
 msgid "Button Link"
-msgstr ""
+msgstr "Knop Link"
 
 #: widgets/class-du-buttons.php:100
 msgid "Button Style"
-msgstr ""
+msgstr "Knop Stijl"
 
-#: widgets/class-du-buttons.php:64 widgets/class-du-event.php:95
-#: widgets/class-du-cta.php:88 widgets/class-du-cta.php:91
+#: widgets/class-du-cta.php:86 widgets/class-du-cta.php:89
+#: widgets/class-du-ctabtn.php:55 widgets/class-du-ctabtn.php:58
+#: widgets/class-du-slider.php:92 widgets/class-du-event.php:95
+#: widgets/class-du-buttons.php:64
 msgid "Button Text"
-msgstr ""
+msgstr "Knoptekst"
 
 #: widgets/class-du-buttons.php:53
 msgid "Button Title"
-msgstr ""
+msgstr "Knop Titel"
 
-#: widgets/class-du-cta.php:47
-msgid "Call to Action"
-msgstr ""
+#: widgets/class-du-cta.php:19
+msgid "Call to Action Box"
+msgstr "Vakken voor oproepen tot actie"
 
-#: widgets/class-du-cta.php:21
+#: widgets/class-du-ctabtn.php:21 widgets/class-du-ctabtn.php:47
+msgid "Call to Action Button"
+msgstr "Knop Oproep tot Actie"
+
+#: widgets/class-du-cta.php:45
 msgid "Call to Action Card"
-msgstr ""
+msgstr "Kaart met oproepen tot actie"
 
 #: widgets/class-du-buttons.php:124
 msgid "Center"
-msgstr ""
+msgstr "Centrum"
 
-#: widgets/class-du-buttons.php:75 widgets/class-du-event.php:120
+#: widgets/class-du-teammember.php:79
+msgid "CEO"
+msgstr "CEO"
+
+#: widgets/class-du-cta.php:112 widgets/class-du-ctabtn.php:81
+msgid "Choose Background Image"
+msgstr "Achtergrondafbeelding kiezen"
+
+#: widgets/class-du-teammember.php:54 widgets/class-du-event.php:120
+#: widgets/class-du-buttons.php:75
 msgid "Choose Image"
-msgstr ""
+msgstr "Afbeelding kiezen"
 
-#: widgets/class-du-cta.php:114
+#: widgets/class-du-ctabtn.php:92
+msgid "CTA Button Style"
+msgstr "CTA-knop stijl"
+
+#: widgets/class-du-cta.php:123
 msgid "CTA Style"
-msgstr ""
+msgstr "CTA-stijl"
 
-#: widgets/class-du-cta.php:58
+#: widgets/class-du-cta.php:56
 msgid "CTA Title"
-msgstr ""
-
-#. Description of the plugin
-msgid "Custom Elementor Widgets for the RV Rhede website."
-msgstr ""
+msgstr "CTA Titel"
 
 #: widgets/class-du-event.php:77
 msgid "Date or Text"
-msgstr ""
+msgstr "Datum of tekst"
 
-#: widgets/class-du-quote.php:91 widgets/class-du-cta.php:118
+#: widgets/class-du-quote.php:91
 msgid "Default"
-msgstr ""
+msgstr "Standaard"
 
-#: widgets/class-du-cta.php:77 widgets/class-du-cta.php:80
+#: widgets/class-du-cta.php:75 widgets/class-du-cta.php:78
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
+
+#: widgets/class-du-slider.php:62
+msgid "Desktop Image"
+msgstr "Desktop afbeelding"
 
 #. Author of the plugin
 msgid "Drunken Unicorn"
-msgstr ""
+msgstr "Dronken Eenhoorn"
+
+#: du-elementor-widgets.php:66
+msgid "DU Extra Elements"
+msgstr "DU Extra elementen"
+
+#: widgets/class-du-slider.php:115
+msgid "Enddate"
+msgstr "Einddatum"
 
 #: widgets/class-du-event.php:21 widgets/class-du-event.php:46
 msgid "Event / Workshop"
-msgstr ""
+msgstr "Evenement / Workshop"
 
 #: widgets/class-du-event.php:74
 msgid "Event date"
-msgstr ""
+msgstr "Datum evenement"
 
 #: widgets/class-du-event.php:65
 msgid "Event Description"
-msgstr ""
+msgstr "Evenement Beschrijving"
 
 #: widgets/class-du-event.php:85
 msgid "Event price"
-msgstr ""
+msgstr "Evenement prijs"
+
+#. Name of the plugin
+msgid "Extra Elementor Widgets"
+msgstr "Extra Elementor Widgets"
+
+#. Description of the plugin
+msgid "Extra Elementor Widgets for your website."
+msgstr "Extra Elementor Widgets voor je website."
+
+#: widgets/class-du-teammember.php:76
+msgid "Function"
+msgstr "Functie"
 
 #. URI of the plugin
 #. Author URI of the plugin
 msgid "https://www.drunken-unicorn.eu"
-msgstr ""
+msgstr "https://www.drunken-unicorn.eu"
 
 #: widgets/class-du-buttons.php:106
 msgid "Invert"
-msgstr ""
+msgstr "Omkeren"
 
-#: widgets/class-du-buttons.php:68 widgets/class-du-event.php:99
+#: widgets/class-du-teammember.php:68
+msgid "John Doe"
+msgstr "John Doe"
+
+#: widgets/class-du-event.php:99 widgets/class-du-buttons.php:68
 msgid "Learn More"
-msgstr ""
+msgstr "Meer leren"
 
 #: widgets/class-du-buttons.php:119
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
-#: du-elementor-widgets.php:56
-msgid "Praktijk Puntenslijper"
-msgstr ""
+#: widgets/class-du-slider.php:71
+msgid "Mobile Image"
+msgstr "Mobiel beeld"
+
+#: widgets/class-du-teammember.php:65
+msgid "Name"
+msgstr "Naam"
+
+#: widgets/class-du-newslist.php:22
+msgid "News list"
+msgstr "Nieuwslijst"
+
+#: widgets/class-du-newslist.php:123
+msgid "No posts found"
+msgstr "Geen berichten gevonden"
+
+#: widgets/class-du-newsslider.php:147
+msgid "No recent posts found"
+msgstr "Geen recente berichten gevonden"
+
+#: widgets/class-du-newslist.php:46 widgets/class-du-newsslider.php:23
+#: widgets/class-du-newsslider.php:48
+msgid "Posts slider"
+msgstr "Berichten slider"
 
 #: widgets/class-du-buttons.php:104
 msgid "Primary"
-msgstr ""
+msgstr "Primair"
 
 #: widgets/class-du-quote.php:21 widgets/class-du-quote.php:46
 msgid "Quote"
-msgstr ""
+msgstr "Citaat"
 
 #: widgets/class-du-quote.php:87
 msgid "Quote Style"
-msgstr ""
+msgstr "Citaat Stijl"
 
 #: widgets/class-du-quote.php:57
 msgid "Quote Title"
-msgstr ""
+msgstr "Citaat titel"
+
+#: widgets/class-du-slider.php:23 widgets/class-du-slider.php:48
+msgid "Responsive Slider"
+msgstr "Responsieve schuifbalk"
 
 #: widgets/class-du-buttons.php:129
 msgid "Right"
-msgstr ""
-
-#. Name of the plugin
-msgid "RVR Elementor Widgets"
-msgstr ""
+msgstr "Rechts"
 
 #: widgets/class-du-buttons.php:105
 msgid "Secondary"
-msgstr ""
+msgstr "Secundair"
 
-#: widgets/class-du-quote.php:93 widgets/class-du-cta.php:120
+#: widgets/class-du-quote.php:93
 msgid "Shade behind text"
-msgstr ""
+msgstr "Schaduw achter tekst"
 
-#: widgets/class-du-quote.php:65 widgets/class-du-cta.php:66
+#: widgets/class-du-newslist.php:54 widgets/class-du-newsslider.php:56
+msgid "Show # items"
+msgstr "Toon # items"
+
+#: widgets/class-du-slider.php:56
+msgid "Slides"
+msgstr "Dia's"
+
+#: widgets/class-du-slider.php:110
+msgid "Startdate"
+msgstr "Startdatum"
+
+#: widgets/class-du-cta.php:127 widgets/class-du-ctabtn.php:96
+msgid "Style 01"
+msgstr "Stijl 01"
+
+#: widgets/class-du-cta.php:128 widgets/class-du-ctabtn.php:97
+msgid "Style 02"
+msgstr "Stijl 02"
+
+#: widgets/class-du-cta.php:129 widgets/class-du-ctabtn.php:98
+msgid "Style 03"
+msgstr "Stijl 03"
+
+#: widgets/class-du-cta.php:130
+msgid "Style 04"
+msgstr "Stijl 04"
+
+#: widgets/class-du-cta.php:64 widgets/class-du-quote.php:65
 msgid "Sub Title Text"
-msgstr ""
+msgstr "Subtitel tekst"
 
-#: widgets/class-du-cta.php:92
+#: widgets/class-du-cta.php:90 widgets/class-du-ctabtn.php:59
 msgid "Submit"
-msgstr ""
+msgstr "Stuur  in"
 
-#: widgets/class-du-quote.php:68 widgets/class-du-cta.php:69
+#: widgets/class-du-slider.php:86 widgets/class-du-slider.php:88
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: widgets/class-du-cta.php:67 widgets/class-du-quote.php:68
 msgid "Subtitle goes here"
-msgstr ""
+msgstr "Ondertitel komt hier"
 
-#: widgets/class-du-buttons.php:57 widgets/class-du-event.php:57
+#: widgets/class-du-teammember.php:21 widgets/class-du-teammember.php:46
+msgid "Teammember"
+msgstr "Teamlid"
+
+#: widgets/class-du-teammember.php:87
+msgid "Teammember Description"
+msgstr "Teamlid Beschrijving"
+
+#: widgets/class-du-slider.php:80 widgets/class-du-event.php:57
+#: widgets/class-du-buttons.php:57
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
-#: widgets/class-du-quote.php:54 widgets/class-du-event.php:54
-#: widgets/class-du-cta.php:55
+#: widgets/class-du-cta.php:53 widgets/class-du-quote.php:54
+#: widgets/class-du-event.php:54
 msgid "Title Text"
-msgstr ""
+msgstr "Titel Tekst"
 
-#: widgets/class-du-quote.php:92 widgets/class-du-cta.php:119
+#: widgets/class-du-slider.php:82
+msgid "Title text"
+msgstr "Titel tekst"
+
+#: widgets/class-du-quote.php:92
 msgid "Transparent Background"
-msgstr ""
+msgstr "Transparante achtergrond"
 
-#: widgets/class-du-buttons.php:66 widgets/class-du-event.php:97
+#: widgets/class-du-event.php:97 widgets/class-du-buttons.php:66
 msgid "Type something special here, my friend!"
-msgstr ""
+msgstr "Typ hier iets speciaals, mijn vriend!"
