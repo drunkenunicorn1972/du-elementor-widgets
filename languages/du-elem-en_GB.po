@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: RVR Elementor Widgets\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:28+0000\n"
-"PO-Revision-Date: 2025-02-20 15:29+0000\n"
+"PO-Revision-Date: 2025-02-21 15:17+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -31,6 +31,10 @@ msgstr "6"
 msgid "Alignment"
 msgstr "Alignment"
 
+#: widgets/class-du-responsive-image.php:77
+msgid "Alternative text"
+msgstr "Alternative text"
+
 #: widgets/class-du-quote.php:76 widgets/class-du-quote.php:79
 msgid "Author"
 msgstr "Author"
@@ -38,6 +42,10 @@ msgstr "Author"
 #: widgets/class-du-buttons.php:20 widgets/class-du-buttons.php:44
 msgid "Big Button"
 msgstr "Big Button"
+
+#: widgets/class-du-responsive-image.php:111
+msgid "Border Radius"
+msgstr "Border Radius"
 
 #: widgets/class-du-slider.php:98
 msgid "Button"
@@ -87,10 +95,18 @@ msgstr "CEO"
 msgid "Choose Background Image"
 msgstr "Choose Background Image"
 
+#: widgets/class-du-responsive-image.php:54
+msgid "Choose Desktop Image"
+msgstr "Choose Desktop Image"
+
 #: widgets/class-du-teammember.php:54 widgets/class-du-event.php:120
 #: widgets/class-du-buttons.php:75
 msgid "Choose Image"
 msgstr "Choose Image"
+
+#: widgets/class-du-responsive-image.php:65
+msgid "Choose Mobile Image"
+msgstr "Choose Mobile Image"
 
 #: widgets/class-du-ctabtn.php:92
 msgid "CTA Button Style"
@@ -124,7 +140,7 @@ msgstr "Desktop Image"
 msgid "Drunken Unicorn"
 msgstr "Drunken Unicorn"
 
-#: du-elementor-widgets.php:66
+#: du-elementor-widgets.php:68
 msgid "DU Extra Elements"
 msgstr "DU Extra Elements"
 
@@ -156,6 +172,14 @@ msgstr "Extra Elementor Widgets"
 msgid "Extra Elementor Widgets for your website."
 msgstr "Extra Elementor Widgets for your website."
 
+#: widgets/class-du-responsive-image.php:101
+msgid "Full"
+msgstr "Full"
+
+#: widgets/class-du-responsive-image.php:100
+msgid "Full width"
+msgstr "Full width"
+
 #: widgets/class-du-teammember.php:76
 msgid "Function"
 msgstr "Function"
@@ -181,6 +205,10 @@ msgstr "Learn More"
 msgid "Left"
 msgstr "Left"
 
+#: widgets/class-du-responsive-image.php:87
+msgid "Link"
+msgstr "Link"
+
 #: widgets/class-du-slider.php:71
 msgid "Mobile Image"
 msgstr "Mobile Image"
@@ -200,6 +228,10 @@ msgstr "No posts found"
 #: widgets/class-du-newsslider.php:147
 msgid "No recent posts found"
 msgstr "No recent posts found"
+
+#: widgets/class-du-responsive-image.php:102
+msgid "Normal"
+msgstr "Normal"
 
 #: widgets/class-du-newslist.php:46 widgets/class-du-newsslider.php:23
 #: widgets/class-du-newsslider.php:48
@@ -222,6 +254,11 @@ msgstr "Quote Style"
 msgid "Quote Title"
 msgstr "Quote Title"
 
+#: widgets/class-du-responsive-image.php:21
+#: widgets/class-du-responsive-image.php:46
+msgid "Responsive Image"
+msgstr "Responsive Image"
+
 #: widgets/class-du-slider.php:23 widgets/class-du-slider.php:48
 msgid "Responsive Slider"
 msgstr "Responsive Slider"
@@ -241,6 +278,10 @@ msgstr "Shade behind text"
 #: widgets/class-du-newslist.php:54 widgets/class-du-newsslider.php:56
 msgid "Show # items"
 msgstr "Show # items"
+
+#: widgets/class-du-responsive-image.php:103
+msgid "Show the image full width inside its container"
+msgstr "Show the image full width inside its container"
 
 #: widgets/class-du-slider.php:56
 msgid "Slides"

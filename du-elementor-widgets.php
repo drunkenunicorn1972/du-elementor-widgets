@@ -3,7 +3,7 @@
  * Plugin Name: Extra Elementor Widgets
  * Description: Extra Elementor Widgets for your website.
  * Plugin URI:  https://www.drunken-unicorn.eu
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      Drunken Unicorn
  * Author URI:  https://www.drunken-unicorn.eu
  * Text Domain: du-elem
@@ -39,6 +39,7 @@ function register_du_widgets( $widgets_manager ): void {
     require_once( __DIR__ . '/widgets/class-du-newsslider.php' );
     require_once( __DIR__ . '/widgets/class-du-newslist.php' );
     require_once( __DIR__ . '/widgets/class-du-teammember.php' );
+    require_once( __DIR__ . '/widgets/class-du-responsive-image.php' );
 
     $widgets_manager->register( new \Du_CTA_Button_Widget() );
     $widgets_manager->register( new \Du_Call_To_Action_Widget() );
@@ -49,6 +50,7 @@ function register_du_widgets( $widgets_manager ): void {
     $widgets_manager->register( new \Du_NewsSlider_Widget() );
     $widgets_manager->register( new \Du_Newslist_Widget() );
     $widgets_manager->register( new \DU_Teammember_Widget() );
+    $widgets_manager->register( new \DU_Responsive_Image_Widget() );
 
 }
 add_action( 'elementor/widgets/register', 'register_du_widgets' );

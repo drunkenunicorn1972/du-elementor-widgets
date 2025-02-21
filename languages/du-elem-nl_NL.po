@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: RVR Elementor Widgets\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:28+0000\n"
-"PO-Revision-Date: 2025-02-20 15:29+0000\n"
+"PO-Revision-Date: 2025-02-21 15:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: Nederlands\n"
 "Language: nl_NL\n"
@@ -31,6 +31,10 @@ msgstr "6"
 msgid "Alignment"
 msgstr "Uitlijning"
 
+#: widgets/class-du-responsive-image.php:77
+msgid "Alternative text"
+msgstr "Alternatieve tekst"
+
 #: widgets/class-du-quote.php:76 widgets/class-du-quote.php:79
 msgid "Author"
 msgstr "Auteur"
@@ -38,6 +42,10 @@ msgstr "Auteur"
 #: widgets/class-du-buttons.php:20 widgets/class-du-buttons.php:44
 msgid "Big Button"
 msgstr "Grote Knop"
+
+#: widgets/class-du-responsive-image.php:111
+msgid "Border Radius"
+msgstr "Border Radius"
 
 #: widgets/class-du-slider.php:98
 msgid "Button"
@@ -87,10 +95,18 @@ msgstr "CEO"
 msgid "Choose Background Image"
 msgstr "Achtergrondafbeelding kiezen"
 
+#: widgets/class-du-responsive-image.php:54
+msgid "Choose Desktop Image"
+msgstr "Kies afbeelding desktopgrootte"
+
 #: widgets/class-du-teammember.php:54 widgets/class-du-event.php:120
 #: widgets/class-du-buttons.php:75
 msgid "Choose Image"
 msgstr "Afbeelding kiezen"
+
+#: widgets/class-du-responsive-image.php:65
+msgid "Choose Mobile Image"
+msgstr "Kies mobiele afbeelding"
 
 #: widgets/class-du-ctabtn.php:92
 msgid "CTA Button Style"
@@ -124,7 +140,7 @@ msgstr "Desktop afbeelding"
 msgid "Drunken Unicorn"
 msgstr "Dronken Eenhoorn"
 
-#: du-elementor-widgets.php:66
+#: du-elementor-widgets.php:68
 msgid "DU Extra Elements"
 msgstr "DU Extra elementen"
 
@@ -156,6 +172,14 @@ msgstr "Extra Elementor Widgets"
 msgid "Extra Elementor Widgets for your website."
 msgstr "Extra Elementor Widgets voor je website."
 
+#: widgets/class-du-responsive-image.php:101
+msgid "Full"
+msgstr "Vol"
+
+#: widgets/class-du-responsive-image.php:100
+msgid "Full width"
+msgstr "Volledige breedte"
+
 #: widgets/class-du-teammember.php:76
 msgid "Function"
 msgstr "Functie"
@@ -181,6 +205,10 @@ msgstr "Meer leren"
 msgid "Left"
 msgstr "Links"
 
+#: widgets/class-du-responsive-image.php:87
+msgid "Link"
+msgstr "Link"
+
 #: widgets/class-du-slider.php:71
 msgid "Mobile Image"
 msgstr "Mobiel beeld"
@@ -200,6 +228,10 @@ msgstr "Geen berichten gevonden"
 #: widgets/class-du-newsslider.php:147
 msgid "No recent posts found"
 msgstr "Geen recente berichten gevonden"
+
+#: widgets/class-du-responsive-image.php:102
+msgid "Normal"
+msgstr "Normaal"
 
 #: widgets/class-du-newslist.php:46 widgets/class-du-newsslider.php:23
 #: widgets/class-du-newsslider.php:48
@@ -222,6 +254,11 @@ msgstr "Citaat Stijl"
 msgid "Quote Title"
 msgstr "Citaat titel"
 
+#: widgets/class-du-responsive-image.php:21
+#: widgets/class-du-responsive-image.php:46
+msgid "Responsive Image"
+msgstr "Responsive Afbeelding"
+
 #: widgets/class-du-slider.php:23 widgets/class-du-slider.php:48
 msgid "Responsive Slider"
 msgstr "Responsieve schuifbalk"
@@ -241,6 +278,10 @@ msgstr "Schaduw achter tekst"
 #: widgets/class-du-newslist.php:54 widgets/class-du-newsslider.php:56
 msgid "Show # items"
 msgstr "Toon # items"
+
+#: widgets/class-du-responsive-image.php:103
+msgid "Show the image full width inside its container"
+msgstr "Toon de afbeelding over de volle breedte in de container"
 
 #: widgets/class-du-slider.php:56
 msgid "Slides"
