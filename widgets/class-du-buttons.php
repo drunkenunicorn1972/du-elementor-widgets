@@ -162,9 +162,9 @@ class DU_Buttons_Widget extends \Elementor\Widget_Base
         echo '<div class="btn-text">';
         echo '<h2>' . $settings["du_button_title"] . '</h2>';
         echo '<p>' . $settings["du_button_text"] . '</p>';
-        echo '<wvicon class="icon-arrow-right-circle"></wvicon>';
         echo '</div>';
         echo '</a>';
+        echo '<div class="arrow-right"><wvicon class="icon-arrow-right-circle"></wvicon></div>';
         echo '</div>';
 
     }
