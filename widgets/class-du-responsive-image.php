@@ -132,6 +132,8 @@ class DU_Responsive_Image_Widget extends \Elementor\Widget_Base
 
         if (isset($settings['du_responsive_image_borderradius'])) {
             $borderradius = 'border-radius: ' . $settings['du_responsive_image_borderradius']['top'] . $settings['du_responsive_image_borderradius']['unit'] . ', ' . $settings['du_responsive_image_borderradius']['right'] . $settings['du_responsive_image_borderradius']['unit'] . ', ' . $settings['du_responsive_image_borderradius']['bottom'] . $settings['du_responsive_image_borderradius']['unit'] . ', ' . $settings['du_responsive_image_borderradius']['left'] . $settings['du_responsive_image_borderradius']['unit'] . ';';
+        } else {
+            $borderradius = '';
         }
 
         // Don't use the full image size, but load the appropriate sizes for the different screens
