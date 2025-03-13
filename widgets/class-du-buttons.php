@@ -153,6 +153,8 @@ class DU_Buttons_Widget extends \Elementor\Widget_Base
         $settings = $this->get_settings_for_display();
         $target = $settings['du_button_link']['is_external'] ? ' target="_blank"' : '';
         $nofollow = $settings['du_button_link']['nofollow'] ? ' rel="nofollow"' : '';
+        if (!isset($settings['button_align'])) { $settings['button_align'] = '';}
+        if (!isset($settings['du_button_style'])) { $settings['du_button_style'] = '';}
 
         echo '<div class="du-big-button ' . $settings["button_align"] . ' ' . $settings['du_button_style'] . '">';
         echo '<a href="' . $settings['du_button_link']['url'] . '" ' . $target . $nofollow . '">';

@@ -97,17 +97,21 @@ class DU_Teammember_Widget extends \Elementor\Widget_Base
     protected function render()
     {
         $settings = $this->get_settings_for_display();
+        if (!isset($settings['du_teammember_name'])) { $settings['du_teammember_name'] = '';}
+        if (!isset($settings['du_teammember_function'])) { $settings['du_teammember_function'] = '';}
 
         echo '<div class="du-teammember">';
 
         echo '<div class="inner-container-top">';
-        echo '<img src=" ' . $settings['du_teammember_image']['url'] .  ' " alt="' . $settings['du_teammember_name'] . '">';
+        if (isset($settings['du_teammember_image']['url'])) {
+            echo '<img src=" ' . $settings['du_teammember_image']['url'] .  ' " alt="' . $settings['du_teammember_name'] . '">';
+        }
         echo '</div>';
 
         echo '<div class="inner-container-bottom">';
         echo '<div class="name">' . $settings['du_teammember_name'] . '</div>';
         echo '<div class="function">' . $settings['du_teammember_function'] . '</div>';
-        if (strlen(trim($settings['du_event_buttontext']))>0) {
+        if (isset($settings['du_event_buttontext']) && trim($settings['du_event_buttontext'])>0) {
             echo '<div class="description">' . $settings['du_event_buttontext'] . '</div>';
         }
         echo '</div>';
